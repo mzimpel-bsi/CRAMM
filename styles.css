@@ -34,6 +34,21 @@ body {
   margin-bottom: 24px;
 }
 
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.lang-toggle {
+  background: var(--surface);
+  color: var(--accent);
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 18px rgba(17, 32, 63, 0.08);
+}
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.24em;
