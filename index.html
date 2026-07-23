@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRA Maturity Model Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <p class="eyebrow">Self-assessment</p>
+        <h1>CRA maturity model survey</h1>
+        <p class="intro">
+          Rate each question on a 1–5 maturity scale to get an instant view of your current posture against the Cyber Resilience Act maturity model.
+        </p>
+      </header>
+
+      <section class="summary-card" aria-label="Survey summary">
+        <div class="summary-stats">
+          <div>
+            <strong id="progressPercent">0%</strong>
+            <span>Completed</span>
+          </div>
+          <div>
+            <strong id="avgScore">—</strong>
+            <span>Average maturity</span>
+          </div>
+          <div>
+            <strong id="answeredCount">0 / 25</strong>
+            <span>Questions answered</span>
+          </div>
+        </div>
+        <div class="progress-bar" aria-hidden="true">
+          <div id="progressBar"></div>
+        </div>
+        <div class="summary-footer">
+          <p id="maturityLevel">Select your current maturity level for each question.</p>
+          <button id="resetBtn" type="button">Reset responses</button>
+        </div>
+      </section>
+
+      <section id="questionnaire" class="questionnaire"></section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

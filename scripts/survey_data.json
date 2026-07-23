@@ -1,0 +1,314 @@
+[
+  {
+    "domain": "Overall Maturity Score",
+    "ref": "3",
+    "question": "out of 5",
+    "level_descriptions": [
+      "🔵 INTERMEDIATE",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Governance And Documentation",
+    "ref": "1.1.",
+    "question": "Do you have written and approved product security policies?",
+    "level_descriptions": [
+      "1 No product security policies or guidelines exist",
+      "1",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Governance And Documentation",
+    "ref": "1.2.",
+    "question": "Are roles and responsibilities clearly defined for product security activities (e.g. development, vulnerability management, updates)?",
+    "level_descriptions": [
+      "3 Responsibilities are documented but not consistently applied in practice",
+      "3",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Governance And Documentation",
+    "ref": "1.3.",
+    "question": "Do you maintain product-level technical documentation describing implemented security features, risk assessments, design decisions and update procedures?",
+    "level_descriptions": [
+      "1 No product security documentation exists",
+      "1",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Governance And Documentation",
+    "ref": "1.4.",
+    "question": "Is there a process to regularly review product security and the quality of related documentation?",
+    "level_descriptions": [
+      "3 A documented review process exists but is not consistently applied",
+      "3",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Governance And Documentation",
+    "ref": "1.5.",
+    "question": "Are you aware of the Market Surveillance Authority responsible for enforcing the CRA, the conformity assessment procedure applicable to your products, and how to interact with relevant authorities if needed?",
+    "level_descriptions": [
+      "1 No awareness of authorities or obligations",
+      "1",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Risk Management And Security By Design/Default",
+    "ref": "2.1.",
+    "question": "Do you perform cybersecurity risk assessments and use the results to guide product design, development, configuration and component management decisions?",
+    "level_descriptions": [
+      "1 No risk assessments are performed",
+      "1",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Risk Management And Security By Design/Default",
+    "ref": "2.2.",
+    "question": "Are products designed using security-by-design principles from the outset?",
+    "level_descriptions": [
+      "2 Considered occasionally or late in development",
+      "2",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Risk Management And Security By Design/Default",
+    "ref": "2.3.",
+    "question": "Are products delivered with secure-by-default configurations and settings?",
+    "level_descriptions": [
+      "2 Secure settings exist but are inconsistent",
+      "2",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Risk Management And Security By Design/Default",
+    "ref": "2.4.",
+    "question": "Do you perform security checks and testing before releasing or updating a product, and to what extent are automated tools used?",
+    "level_descriptions": [
+      "4 Testing is systematically integrated into development workflows and regularly reviewed",
+      "4",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Risk Management And Security By Design/Default",
+    "ref": "2.5.",
+    "question": "When risks change or new threats emerge, are risk assessments, configurations and third-party components reviewed and updated?",
+    "level_descriptions": [
+      "5 Continuous monitoring and structured updates are in place and continuously improved",
+      "5",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Vulnerability And Patch Management",
+    "ref": "3.1.",
+    "question": "Do you have a process to receive, acknowledge, record and track vulnerabilities reported by customers, researchers or internal staff?",
+    "level_descriptions": [
+      "5 Tracking is measured, integrated and continuously improved",
+      "5",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Vulnerability And Patch Management",
+    "ref": "3.2.",
+    "question": "Do you have a defined process for creating, testing, delivering and communicating security updates to customers for supported products?",
+    "level_descriptions": [
+      "3 A documented process exists but is not consistently followed",
+      "3",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Vulnerability And Patch Management",
+    "ref": "3.3.",
+    "question": "Do you maintain and use a SBOM to support vulnerability and dependency management?",
+    "level_descriptions": [
+      "5 SBOM is integrated, automated where appropriate and continuously improved",
+      "5",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Vulnerability And Patch Management",
+    "ref": "3.4.",
+    "question": "Are vulnerabilities and updates prioritized based on risk, potential impact?",
+    "level_descriptions": [
+      "4 Prioritisation is consistently risk-based and applied",
+      "4",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Vulnerability And Patch Management",
+    "ref": "3.5",
+    "question": "Do you verify that security updates effectively resolve reported vulnerabilities and maintain evidence of this verification?",
+    "level_descriptions": [
+      "5 Verification is measured, reviewed and continuously improved",
+      "5",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Product Lifecycle Management",
+    "ref": "4.1.",
+    "question": "Is there a defined approach to managing product security during the operational phase?",
+    "level_descriptions": [
+      "1 No structured approach exists",
+      "1",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Product Lifecycle Management",
+    "ref": "4.2.",
+    "question": "Is the product lifecycle management actively managed, including defined support periods, update responsibilities, end-of-life arrangements and communication with customers?",
+    "level_descriptions": [
+      "2 Lifecycle activities are informal",
+      "2",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Product Lifecycle Management",
+    "ref": "4.3.",
+    "question": "Is experience from product operation, post-incident reviews and customer input used to improve products over time?",
+    "level_descriptions": [
+      "3 A documented improvement approach exists but is not consistently applied",
+      "3",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Product Lifecycle Management",
+    "ref": "4.4.",
+    "question": "Is there a structured and tested way to address identified product security issues?",
+    "level_descriptions": [
+      "4 Issues are handled through a consistent and reviewed process",
+      "4",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Product Lifecycle Management",
+    "ref": "4.5.",
+    "question": "Are products monitored during operation to identify security risks, vulnerabilities and emerging threats?",
+    "level_descriptions": [
+      "4 Monitoring is consistently performed and results are tracked",
+      "4",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Awareness, Competence And Skills",
+    "ref": "5.1.",
+    "question": "Are sufficient skills available to design, develop and maintain products in a secure way, including through external expertise where internal capacity is limited?",
+    "level_descriptions": [
+      "1 No relevant expertise is available",
+      "1",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Awareness, Competence And Skills",
+    "ref": "5.2.",
+    "question": "Do relevant staff receive appropriate training on cybersecurity practices relevant to their roles, including product risk management, vulnerability management, and security-by-design?",
+    "level_descriptions": [
+      "4 Training is regularly delivered and reviewed",
+      "4",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Awareness, Competence And Skills",
+    "ref": "5.3.",
+    "question": "Does the organisation promote a culture of responsible product development, open reporting and awareness of product risks?",
+    "level_descriptions": [
+      "3 Expectations are communicated to staff",
+      "3",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Awareness, Competence And Skills",
+    "ref": "5.4.",
+    "question": "Do you follow relevant external product security information (e.g. advisories, alerts)?",
+    "level_descriptions": [
+      "2 Information is followed occasionally",
+      "2",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "domain": "Awareness, Competence And Skills",
+    "ref": "5.5.",
+    "question": "Do you assess and validate that your team has the required skills and competence to maintain secure products?",
+    "level_descriptions": [
+      "5 Competence is measured, tracked and continuously improved",
+      "5",
+      "",
+      "",
+      ""
+    ]
+  }
+]
